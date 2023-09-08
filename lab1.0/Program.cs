@@ -31,7 +31,7 @@ namespace Lab1
             strings.ForEach(s =>
             {
                 Console.Write(input[0..input.IndexOf(s, 0)]);
-                Console.ForegroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.Write(s);
                 Console.ResetColor();
                 Console.WriteLine(input[(input.IndexOf(s, 0) + s.Length)..^0]);
